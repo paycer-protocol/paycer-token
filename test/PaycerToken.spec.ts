@@ -1,4 +1,8 @@
 import { ethers, deployments } from 'hardhat'
+import { solidity } from "ethereum-waffle";
+import chai from 'chai'
+
+chai.use(solidity);
 import { expect } from 'chai'
 
 describe('PaycerToken', function () {
